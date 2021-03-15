@@ -1,0 +1,17 @@
+schema: 'src/generated/schema.graphql'
+documents:
+  - './src/lib/graphql/**.graphql'
+generates:
+  src/generated/graphql.ts:
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
+      - 'typescript-urql'
+    config:
+      documentMode: 'documentNode'
+      immutableTypes: false
+      withComponent: false
+      withHooks: true
+      enumsAsConst: true
+      namingConvention:
+        enumValues: upper-case#upperCase
