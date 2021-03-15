@@ -41,7 +41,7 @@
     "@graphql-codegen/typed-document-node": "1.18.2",
     "@graphql-codegen/typescript": "1.21.0",
     "@graphql-codegen/typescript-operations": "1.17.14",
-    "@graphql-codegen/typescript-urql": "2.0.3",
+    "@graphql-codegen/typescript-urql": "2.0.4",
     "@graphql-typed-document-node/core": "3.1.0",
     "@types/next-auth": "3.1.26",
     "husky": "5.1.3",
