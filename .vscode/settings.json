@@ -1,0 +1,19 @@
+{
+  "saveAndRun": {
+    "commands": [
+      {
+        "match": "schema.prisma",
+        "cmd": "yarn prisma db push --preview-feature",
+        "silent": false
+      },
+      {
+        "match": "./src/lib/nexus/*",
+        "cmd": "yarn generate:nexus"
+      },
+      {
+        "match": "./src/lib/graphql/*",
+        "cmd": "yarn generate:hooks"
+      }
+    ]
+  }
+}

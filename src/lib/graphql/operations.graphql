@@ -1,0 +1,10 @@
+fragment UserDetail on User {
+  name
+  image
+}
+
+query viewr {
+  viewer {
+    ...UserDetail
+  }
+}

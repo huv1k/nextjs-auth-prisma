@@ -1,0 +1,53 @@
+{
+  "name": "next-auth-prisma-template",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Lukáš Huvar",
+    "email": "lukas@huvar.cz",
+    "url": "https://huvik.dev/"
+  },
+  "scripts": {
+    "build": "yarn generate:nexus && next build",
+    "dev": "next",
+    "start": "next start",
+    "postinstall": "yarn generate:nexus",
+    "generate:hooks": "graphql-codegen --config .graphqlrc.yaml",
+    "generate:nexus": "ts-node --skip-project --transpile-only src/lib/nexus/schema --nexus-exit"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "dependencies": {
+    "@next-auth/prisma-adapter": "0.4.4",
+    "@prisma/client": "2.18.0",
+    "graphql": "15.5.0",
+    "graphql-helix": "1.2.3",
+    "next": "10.0.8",
+    "next-auth": "3.11.0",
+    "next-urql": "3.0.0",
+    "nexus": "1.0.0",
+    "nexus-plugin-prisma": "0.32.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-is": "17.0.1",
+    "urql": "2.0.1"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "1.21.1",
+    "@graphql-codegen/typed-document-node": "1.18.2",
+    "@graphql-codegen/typescript": "1.21.0",
+    "@graphql-codegen/typescript-operations": "1.17.14",
+    "@graphql-codegen/typescript-urql": "2.0.3",
+    "@graphql-typed-document-node/core": "3.1.0",
+    "@types/next-auth": "3.1.26",
+    "husky": "4.3.8",
+    "prettier": "2.2.1",
+    "pretty-quick": "3.1.0",
+    "prisma": "2.18.0",
+    "ts-node": "9.1.1",
+    "typescript": "4.2.3"
+  }
+}
