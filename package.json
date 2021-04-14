@@ -33,7 +33,7 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-is": "17.0.1",
-    "urql": "2.0.1"
+    "urql": "2.0.2"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "1.21.1",
