@@ -9,7 +9,7 @@ export const schema = makeSchema({
   types,
   plugins: [fieldAuthorizePlugin(), nexusPrisma()],
   outputs: {
-    schema: resolvePath('src/generated/schema.graphql'),
+    schema: resolvePath('src/lib/graphql/generated/schema.graphql'),
     typegen: resolvePath('node_modules/@types/.nexus/index.d.ts'),
   },
   features: {
