@@ -3,7 +3,7 @@ fragment UserDetail on User {
   image
 }
 
-query viewr {
+query viewer {
   viewer {
     ...UserDetail
   }

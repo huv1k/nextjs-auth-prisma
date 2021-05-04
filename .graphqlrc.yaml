@@ -1,14 +1,19 @@
-schema: 'src/generated/schema.graphql'
+schema: src/lib/graphql/generated/schema.graphql
 documents:
-  - './src/lib/graphql/**.graphql'
+  - src/lib/graphql/**.graphql
 generates:
-  src/generated/graphql.ts:
+  src/lib/graphql/generated/types.ts:
+    - typescript
+  src/lib/graphql/generated/:
+    preset: near-operation-file
+    presetConfig:
+      folder: generated
+      baseTypesPath: types.ts
     plugins:
-      - 'typescript'
-      - 'typescript-operations'
-      - 'typescript-urql'
+      - typescript-operations
+      - typescript-urql
     config:
-      documentMode: 'documentNode'
+      documentMode: documentNode
       immutableTypes: false
       withComponent: false
       withHooks: true

@@ -1,5 +1,5 @@
 import { signOut } from 'next-auth/client'
-import { UserDetailFragment } from '../generated/graphql'
+import { UserDetailFragment } from '../lib/graphql/generated/viewer.generated'
 
 interface Props {
   viewer: UserDetailFragment
