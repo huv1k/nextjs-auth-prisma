@@ -30,8 +30,8 @@
     "next-urql": "3.0.0",
     "nexus": "1.0.0",
     "nexus-plugin-prisma": "0.32.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "react-is": "17.0.2",
     "urql": "2.0.2"
   },
