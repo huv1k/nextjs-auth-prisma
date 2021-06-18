@@ -1,13 +1,12 @@
 import { resolve } from 'path'
 import { makeSchema, fieldAuthorizePlugin } from 'nexus'
-import { nexusPrisma } from 'nexus-plugin-prisma'
 import * as types from './types'
 
 const resolvePath = (path: string) => resolve(process.cwd(), path)
 
 export const schema = makeSchema({
   types,
-  plugins: [fieldAuthorizePlugin(), nexusPrisma()],
+  plugins: [fieldAuthorizePlugin()],
   outputs: {
     schema: resolvePath('src/lib/graphql/generated/schema.graphql'),
     typegen: resolvePath('node_modules/@types/.nexus/index.d.ts'),
