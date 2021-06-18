@@ -22,7 +22,7 @@
     }
   },
   "dependencies": {
-    "@next-auth/prisma-adapter": "0.4.4",
+    "@next-auth/prisma-adapter": "^0.4.4-canary.64",
     "@prisma/client": "2.24",
     "graphql": "^15.5.0",
     "graphql-helix": "1.2.3",
