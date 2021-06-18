@@ -24,8 +24,6 @@ if (process.env.NODE_ENV === 'production') {
 export type JwtToken = {
   role: User['role']
   id: User['id']
-  iat: number
-  exp: number
 }
 
 export type Context = {

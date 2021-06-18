@@ -4,8 +4,6 @@ import Providers from 'next-auth/providers'
 import PrismaAdapter from '@next-auth/prisma-adapter'
 import { PrismaClient, User } from '@prisma/client'
 
-import { JwtToken } from '../../../lib/nexus/context'
-
 const prisma = new PrismaClient()
 
 const auth: NextApiHandler = (req, res) =>
@@ -21,16 +19,16 @@ const auth: NextApiHandler = (req, res) =>
       jwt: true,
     },
     callbacks: {
-      jwt: async (token, user): Promise<JwtToken> => {
-        const { role, id, iat, exp } = token
+      jwt: async (token, user) => {
+        const { role, id } = token
 
         if (!role) {
           const { id, role } = user as User
 
-          return { role, id, iat, exp }
+          return { role, id }
         }
 
-        return { role, id, iat, exp }
+        return { role, id }
       },
     },
     // Prisma adapter returns for User `id` string instead of `number`

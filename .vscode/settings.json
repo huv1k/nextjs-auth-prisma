@@ -3,7 +3,7 @@
     "commands": [
       {
         "match": "schema.prisma",
-        "cmd": "yarn prisma db push --preview-feature",
+        "cmd": "yarn prisma db push",
         "silent": false
       },
       {

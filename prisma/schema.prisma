@@ -10,6 +10,10 @@ generator client {
   provider = "prisma-client-js"
 }
 
+generator nexusPrisma {
+  provider = "nexus-prisma"
+}
+
 enum Role {
   USER
   ADMIN

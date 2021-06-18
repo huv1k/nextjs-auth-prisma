@@ -1,12 +1,13 @@
 import { extendType, objectType } from 'nexus'
+import { User } from 'nexus-prisma'
 import { isAdmin } from '../rules'
 
 export const user = objectType({
   name: 'User',
   definition: (t) => {
-    t.model.id()
-    t.model.name()
-    t.model.image()
+    t.field(User.id.name, User.id)
+    t.field(User.name.name, User.name)
+    t.field(User.image.name, User.image)
   },
 })
 
