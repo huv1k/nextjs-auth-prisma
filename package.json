@@ -42,7 +42,7 @@
     "@graphql-codegen/typed-document-node": "1.18.8",
     "@graphql-codegen/typescript": "1.21.0",
     "@graphql-codegen/typescript-operations": "1.17.15",
-    "@graphql-codegen/typescript-urql": "2.0.3",
+    "@graphql-codegen/typescript-urql": "3.1.2",
     "@graphql-typed-document-node/core": "3.1.0",
     "@types/next-auth": "3.1.26",
     "eslint": "^7.28.0",
