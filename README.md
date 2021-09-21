@@ -22,7 +22,7 @@ Build bleeding-edge full-stack applications using **Next.js**, **GraphQL**, **Ty
 I have created this boilerplate because there was a missing one with all features. Which would support fast development and easy deployment without sacrificing performance. This boilerplate is built on the best open-source tools out there:
 
 - ⚡️ [Next.js](https://github.com/vercel/next.js) - The React framework for Production
-- 🛠 [TypeScript](https://www.typescriptlang.org/) - Type-safty for your code
+- 🛠 [TypeScript](https://www.typescriptlang.org/) - Type-safety for your code
 - 🤝 [Prisma](https://github.com/prisma/prisma) - ORM for accessing and managing your data
 - 🛡 [NextAuth.js](https://github.com/nextauthjs/next-auth) - Authentication for Next.js
 - 🦅 [urql](https://github.com/FormidableLabs/urql) - Highly customisable GraphQL client with sensitive defaults
