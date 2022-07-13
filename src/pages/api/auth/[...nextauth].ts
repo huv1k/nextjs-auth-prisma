@@ -1,7 +1,7 @@
 import { NextApiHandler } from 'next'
 import NextAuth from 'next-auth'
 import Providers from 'next-auth/providers'
-import PrismaAdapter from '@next-auth/prisma-adapter'
+import { PrismaAdapter } from '@next-auth/prisma-adapter'
 import { PrismaClient, User } from '@prisma/client'
 
 const prisma = new PrismaClient()
