@@ -1,24 +1,29 @@
 import React from 'react'
-import { signIn, useSession } from 'next-auth/client'
+import { signIn } from 'next-auth/react'
 import { withGraphql } from '../lib/graphql/with-graphql'
-import { useViewerQuery } from '../lib/graphql/generated/viewer.generated'
+import { useViewerQuery } from '../lib/graphql/viewer.generated'
 import { Viewer } from '../components/viewer'
 
 const Index = () => {
-  const [session, loading] = useSession()
-  const [{ fetching, data }] = useViewerQuery()
+  const [{ fetching, data, error }] = useViewerQuery()
 
-  if (fetching || loading) {
+  if (fetching) {
     return <div>Loading</div>
   }
 
-  return !session && !data.viewer ? (
+  if (error) {
+    return <div>{error.message}</div>
+  }
+
+  if (data?.viewer) {
+    return <Viewer viewer={data?.viewer} />
+  }
+
+  return (
     <>
       <h2>Not signed in</h2>
       <button onClick={() => signIn()}>Sign in</button>
     </>
-  ) : (
-    <Viewer viewer={data.viewer} />
   )
 }
 

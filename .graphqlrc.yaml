@@ -7,7 +7,6 @@ generates:
   src/lib/graphql/generated/:
     preset: near-operation-file
     presetConfig:
-      folder: generated
       baseTypesPath: types.ts
     plugins:
       - typescript-operations

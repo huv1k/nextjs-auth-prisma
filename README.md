@@ -1,4 +1,4 @@
-# Nextjs-auth-prisma boilerplate
+# Next.js-auth-prisma boilerplate
 
 Build bleeding-edge full-stack applications using **Next.js**, **GraphQL**, **TypeScript** and **Prisma**.
 
@@ -27,20 +27,21 @@ I have created this boilerplate because there was a missing one with all feature
 - 🛡 [NextAuth.js](https://github.com/nextauthjs/next-auth) - Authentication for Next.js
 - 🦅 [urql](https://github.com/FormidableLabs/urql) - Highly customisable GraphQL client with sensitive defaults
 - ⚙️ [GraphQL Code Generator](https://github.com/dotansimha/graphql-code-generator) - Generates code out of GraphQL schema
-- 🧬 [GraphQL Helix](https://github.com/contrawork/graphql-helix) - Flexible utility functions for building GraphQL servers
-- 💄 [Prettier](https://github.com/prettier/prettier) - Formating your code
+- 🧘‍♀️ [GraphQL Yoga](https://github.com/dotansimha/graphql-yoga/) - Fully-featured GraphQL Server
+- 💄 [Prettier](https://github.com/prettier/prettier) - Formatting your code
 - 🤖 [Dependabot](https://github.com/marketplace/dependabot-preview) - Keeping your dependencies up to date
 
 ### Run Prisma migrations on save
 
 This boilerplate works out of the box with automatic migrations for rapid prototyping. I described this in my article [Improve prototyping speed of Prisma](https://huvik.dev/blog/improve-prototyping-speed-of-prisma), you can check how it works under the hood.
 
-![](https://i.imgur.com/clz6RjW.gif)
+![](https://i.imgur.com/kF73swy.gif)
 
 ### Automatic GraphQL hooks generation
 
 Hooks for GraphQL are automatically generated inside `src/lib/grahql/*` from your GraphQL files. You can customize hooks generation inside `.graphqlrc.yaml`.
-![](https://i.imgur.com/gFGF2fB.gif)
+
+![](https://i.imgur.com/xNwz7AA.gif)
 
 ### Authentication using NextAuth.js
 
@@ -48,7 +49,7 @@ This boilerplate is configured to use [GitHub](https://next-auth.js.org/provider
 
 ### Defining custom authorization rules
 
-You can define authorization rules for your resolvers. For example [isAdmin](https://github.com/huv1k/nextjs-auth-prisma/blob/master/src/lib/nexus/rules.ts) rule for listing [all users](https://github.com/huv1k/nextjs-auth-prisma/blob/master/src/lib/nexus/types/user.ts#L24).
+You can define authorization rules for your resolvers. You can follow [Pothos's auth plugin](https://pothos-graphql.dev/docs/plugins/scope-auth) documentation or checkout [example](https://github.com/huv1k/nextjs-auth-prisma/blob/master/src/lib/pothos/builder.ts) in this repository.
 
 ### Deployment
 
@@ -58,7 +59,7 @@ For deployment, you can use [Vercel](https://vercel.com/), this boilerplate work
 
 ### Connect your database
 
-You can follow [Prisma getting started](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch-typescript-postgres#connect-your-database), which requires to have running PostgreSQL database running. If you don't want to use a local docker setup, I suggest using [Railway.app](https://railway.app/), which has a nice generous free plan for PostgreSQL databases.
+This starter could be used with all databases supported by Prisma. I would suggest using [PlanetScale](https://planetscale.com/), which has a nice generous free plan. You can follow [Prisma getting started](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases/connect-your-database-typescript-planetscale) to get your database up and running.
 
 ### NextAuth GitHub provider
 

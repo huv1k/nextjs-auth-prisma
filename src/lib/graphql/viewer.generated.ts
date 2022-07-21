@@ -1,20 +1,26 @@
-import * as Types from './types'
+import * as Types from './generated/types'
 
 import { DocumentNode } from 'graphql'
 import * as Urql from 'urql'
 export type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>
-export type UserDetailFragment = { __typename?: 'User' } & Pick<
-  Types.User,
-  'name' | 'image'
->
+export type UserDetailFragment = {
+  __typename?: 'User'
+  name?: string | null
+  image?: string | null
+}
 
 export type ViewerQueryVariables = Types.Exact<{ [key: string]: never }>
 
-export type ViewerQuery = { __typename?: 'Query' } & {
-  viewer?: Types.Maybe<{ __typename?: 'User' } & UserDetailFragment>
+export type ViewerQuery = {
+  __typename?: 'Query'
+  viewer?: {
+    __typename?: 'User'
+    name?: string | null
+    image?: string | null
+  } | null
 }
 
-export const UserDetailFragmentDoc: DocumentNode = {
+export const UserDetailFragmentDoc = {
   kind: 'Document',
   definitions: [
     {
@@ -33,8 +39,8 @@ export const UserDetailFragmentDoc: DocumentNode = {
       },
     },
   ],
-}
-export const ViewerDocument: DocumentNode = {
+} as unknown as DocumentNode
+export const ViewerDocument = {
   kind: 'Document',
   definitions: [
     {
@@ -76,10 +82,13 @@ export const ViewerDocument: DocumentNode = {
       },
     },
   ],
-}
+} as unknown as DocumentNode
 
 export function useViewerQuery(
-  options: Omit<Urql.UseQueryArgs<ViewerQueryVariables>, 'query'> = {}
+  options?: Omit<Urql.UseQueryArgs<ViewerQueryVariables>, 'query'>
 ) {
-  return Urql.useQuery<ViewerQuery>({ query: ViewerDocument, ...options })
+  return Urql.useQuery<ViewerQuery, ViewerQueryVariables>({
+    query: ViewerDocument,
+    ...options,
+  })
 }
