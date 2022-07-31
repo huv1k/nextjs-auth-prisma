@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import { signOut } from 'next-auth/client'
-import { UserDetailFragment } from '../lib/graphql/generated/viewer.generated'
+import { signOut } from 'next-auth/react'
+import { UserDetailFragment } from '../lib/graphql/viewer.generated'
 
 interface Props {
   viewer: UserDetailFragment
@@ -8,7 +8,14 @@ interface Props {
 
 export const Viewer = ({ viewer }: Props) => (
   <div>
-    <Image width="150px" height="150px" src={viewer.image} alt={viewer.name} />
+    {viewer.image && (
+      <Image
+        width="150px"
+        height="150px"
+        src={viewer.image}
+        alt={viewer.name ?? 'User without a name'}
+      />
+    )}
     <h2>{viewer.name}</h2>
     <button onClick={() => signOut()}>Sign out</button>
   </div>

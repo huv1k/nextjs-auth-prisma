@@ -1,39 +1,29 @@
-import { NextApiHandler } from 'next'
 import NextAuth from 'next-auth'
-import Providers from 'next-auth/providers'
-import PrismaAdapter from '@next-auth/prisma-adapter'
+import GitHubProvider from 'next-auth/providers/github'
+import { PrismaAdapter } from '@next-auth/prisma-adapter'
 import { PrismaClient, User } from '@prisma/client'
 
 const prisma = new PrismaClient()
 
-const auth: NextApiHandler = (req, res) =>
-  NextAuth(req, res, {
-    providers: [
-      Providers.GitHub({
-        clientId: process.env.GITHUB_ID,
-        clientSecret: process.env.GITHUB_SECRET,
-      }),
-    ],
-    secret: process.env.JWT_SECRET,
-    session: {
-      jwt: true,
+export default NextAuth({
+  providers: [
+    GitHubProvider({
+      clientId: String(process.env.GITHUB_ID),
+      clientSecret: String(process.env.GITHUB_SECRET),
+    }),
+  ],
+  session: {
+    strategy: 'jwt',
+  },
+  callbacks: {
+    async jwt({ token, user }) {
+      if (user) {
+        token.role = user.role
+        token.id = user.id
+      }
+
+      return token
     },
-    callbacks: {
-      jwt: async (token, user) => {
-        const { role, id } = token
-
-        if (!role) {
-          const { id, role } = user as User
-
-          return { role, id }
-        }
-
-        return { role, id }
-      },
-    },
-    // Prisma adapter returns for User `id` string instead of `number`
-    // @ts-ignore
-    adapter: PrismaAdapter({ prisma }),
-  })
-
-export default auth
+  },
+  adapter: PrismaAdapter(prisma),
+})
