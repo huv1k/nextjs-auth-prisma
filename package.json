@@ -26,7 +26,7 @@
     "@prisma/client": "4.1.1",
     "graphql": "16.5.0",
     "next": "12.2.3",
-    "next-auth": "4.10.2",
+    "next-auth": "4.10.3",
     "next-urql": "3.3.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
