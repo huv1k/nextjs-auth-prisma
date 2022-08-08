@@ -673,13 +673,13 @@
     auto-bind "~4.0.0"
     tslib "~2.4.0"
 
-"@graphql-codegen/typescript-urql@3.6.3":
-  version "3.6.3"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-urql/-/typescript-urql-3.6.3.tgz#19f5fa5f5435e73e0148b96ad58576171f568646"
-  integrity sha512-xU4Q8nxpGUc/ayL4Mpc42mwAxS3W2fgH48cnC4lIXlQQBOVc6YF1UkR9+pZhS0Ti16PD6vhKZqm92/PumxE6Xg==
+"@graphql-codegen/typescript-urql@3.6.4":
+  version "3.6.4"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-urql/-/typescript-urql-3.6.4.tgz#90e2c56ab724062d41940a4c65a1c98de0cce62f"
+  integrity sha512-JPwhAGah5akoqXhTY5Rd1y/gEcLSpZyrOz0YkioH8cf7igBErEt00W90ccHrHvZ7o5fhFFy2/QdCndDLQhpZCA==
   dependencies:
-    "@graphql-codegen/plugin-helpers" "^2.6.0"
-    "@graphql-codegen/visitor-plugin-common" "2.12.0"
+    "@graphql-codegen/plugin-helpers" "^2.6.2"
+    "@graphql-codegen/visitor-plugin-common" "2.12.1"
     auto-bind "~4.0.0"
     tslib "~2.4.0"
 
