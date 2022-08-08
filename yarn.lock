@@ -642,12 +642,12 @@
     lodash "~4.17.0"
     tslib "~2.4.0"
 
-"@graphql-codegen/schema-ast@^2.5.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/schema-ast/-/schema-ast-2.5.0.tgz#1b33a17924f0dd4c78d4f2c9dfce215d0bdd29ae"
-  integrity sha512-nlF4Yc7h90nmogG2E11TeFJ3/hCkb4SDMSdbJX68b1mhvVEji/kq3zWYKAQ+lAzjZ7HF94Eylm3MrZAjjpCKIA==
+"@graphql-codegen/schema-ast@^2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/schema-ast/-/schema-ast-2.5.1.tgz#ce030ae6de5dacd745848009ba0ca18c9c30910c"
+  integrity sha512-tewa5DEKbglWn7kYyVBkh3J8YQ5ALqAMVmZwiVFIGOao5u66nd+e4HuFqp0u+Jpz4SJGGi0ap/oFrEvlqLjd2A==
   dependencies:
-    "@graphql-codegen/plugin-helpers" "^2.5.0"
+    "@graphql-codegen/plugin-helpers" "^2.6.2"
     "@graphql-tools/utils" "^8.8.0"
     tslib "~2.4.0"
 
@@ -683,14 +683,14 @@
     auto-bind "~4.0.0"
     tslib "~2.4.0"
 
-"@graphql-codegen/typescript@2.7.2", "@graphql-codegen/typescript@^2.7.2":
-  version "2.7.2"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript/-/typescript-2.7.2.tgz#ad47ad1abf8e49f455a47cb71d2d9fd149d7846d"
-  integrity sha512-lFqvLgw4oAChA9+ifC2K7Ie+mE+XvHcZqwXsm45bpF7jbmqfgjS0gvQNfu2egi6u4hdg+xL+olNxwnyhayrikw==
+"@graphql-codegen/typescript@2.7.3", "@graphql-codegen/typescript@^2.7.2":
+  version "2.7.3"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript/-/typescript-2.7.3.tgz#ad786a1c74e16eca8e01e7a8f28078e1c24eeb61"
+  integrity sha512-EzX/acijXtbG/AwPzho2ZZWaNo00+xAbsRDP+vnT2PwQV3AYq3/5bFvjq1XfAGWbTntdmlYlIwC9hf5bI85WVA==
   dependencies:
-    "@graphql-codegen/plugin-helpers" "^2.6.0"
-    "@graphql-codegen/schema-ast" "^2.5.0"
-    "@graphql-codegen/visitor-plugin-common" "2.12.0"
+    "@graphql-codegen/plugin-helpers" "^2.6.2"
+    "@graphql-codegen/schema-ast" "^2.5.1"
+    "@graphql-codegen/visitor-plugin-common" "2.12.1"
     auto-bind "~4.0.0"
     tslib "~2.4.0"
 
@@ -1359,10 +1359,10 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
   integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
 
-"@types/react@18.0.15":
-  version "18.0.15"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.15.tgz#d355644c26832dc27f3e6cbf0c4f4603fc4ab7fe"
-  integrity sha512-iz3BtLuIYH1uWdsv6wXYdhozhqj20oD4/Hk2DNXIn1kFsmp9x8d9QB6FnPhfkbhd2PgEONt9Q1x/ebkwjfFLow==
+"@types/react@18.0.17":
+  version "18.0.17"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.17.tgz#4583d9c322d67efe4b39a935d223edcc7050ccf4"
+  integrity sha512-38ETy4tL+rn4uQQi7mB81G7V1g0u2ryquNmsVIOKUAEIDK+3CUjZ6rSRpdvS99dNBnkLFL83qfmtLacGOTIhwQ==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
