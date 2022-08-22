@@ -1212,10 +1212,10 @@
     tslib "^2.4.0"
     webcrypto-core "^1.7.4"
 
-"@pothos/core@3.16.0":
-  version "3.16.0"
-  resolved "https://registry.yarnpkg.com/@pothos/core/-/core-3.16.0.tgz#69758db5f1bb612f724001e3d062938d526aafc0"
-  integrity sha512-wbPySA83v+4ZyYu8JYvG7zsvSDXtmz25Tg4QsNJVa7QJUHcmDbkR+a1FncdMYtF9asTVMLJuGSnzm0YnApIbpA==
+"@pothos/core@3.17.0":
+  version "3.17.0"
+  resolved "https://registry.yarnpkg.com/@pothos/core/-/core-3.17.0.tgz#88079387dfe8459fa979d694fa6bb49bdff24a82"
+  integrity sha512-GNlohYIXfvsE4mF8Vmr2DacXlwJMUsvwIAjBui3kG/swG+uGF9bQwUfQqZj+azdk/lbOC7yU7krJvo87UatEkg==
 
 "@pothos/plugin-prisma@3.27.1":
   version "3.27.1"
