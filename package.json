@@ -18,7 +18,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@graphql-yoga/node": "2.13.12",
+    "@graphql-yoga/node": "2.13.13",
     "@next-auth/prisma-adapter": "1.0.4",
     "@pothos/core": "3.19.1",
     "@pothos/plugin-prisma": "3.31.1",
