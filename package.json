@@ -43,7 +43,7 @@
     "@graphql-typed-document-node/core": "3.1.1",
     "@types/node": "18.8.3",
     "@types/react": "18.0.21",
-    "eslint": "8.24.0",
+    "eslint": "8.25.0",
     "eslint-config-next": "12.3.1",
     "husky": "^8.0.0",
     "prettier": "2.7.1",
