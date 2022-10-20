@@ -693,14 +693,14 @@
     change-case-all "1.0.14"
     tslib "~2.4.0"
 
-"@graphql-codegen/typescript-operations@2.5.4":
-  version "2.5.4"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-operations/-/typescript-operations-2.5.4.tgz#e0513b5529ebc6eec0acade7f9f0838bdee997aa"
-  integrity sha512-+IA0ouGC6GZiCyvWMyzLc6K8i+oG/DjWLY0q4kc9nqBPRi8rsiYzMq/VHVtXCWxNZiGQhkjwpqNaDsqoVhOiUg==
+"@graphql-codegen/typescript-operations@2.5.5":
+  version "2.5.5"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-operations/-/typescript-operations-2.5.5.tgz#c372404da8fe0197d2a68bab37457719efde971a"
+  integrity sha512-rH15UA34MRf6cITfvt2EkSEaC/8ULvgMg5kzun6895oucA8PFyAFJaQzcjk9UraeD3ddMu56OKhZGdxd0JWfKw==
   dependencies:
     "@graphql-codegen/plugin-helpers" "^2.6.2"
-    "@graphql-codegen/typescript" "^2.7.4"
-    "@graphql-codegen/visitor-plugin-common" "2.12.2"
+    "@graphql-codegen/typescript" "^2.7.5"
+    "@graphql-codegen/visitor-plugin-common" "2.13.0"
     auto-bind "~4.0.0"
     tslib "~2.4.0"
 
@@ -714,7 +714,7 @@
     auto-bind "~4.0.0"
     tslib "~2.4.0"
 
-"@graphql-codegen/typescript@2.7.4", "@graphql-codegen/typescript@^2.7.4":
+"@graphql-codegen/typescript@2.7.4":
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript/-/typescript-2.7.4.tgz#46c1fac63ae1b487efe73db6531f1db5e5198fe0"
   integrity sha512-mjoE3KqmAaBUSlCuKb2WDot3+CTfdJ9eKIcWsDFubPTNdZE0Z8mLoATmVryx8NOBjDtPU/ZziI0rYEGOR4qpAw==
@@ -722,6 +722,17 @@
     "@graphql-codegen/plugin-helpers" "^2.6.2"
     "@graphql-codegen/schema-ast" "^2.5.1"
     "@graphql-codegen/visitor-plugin-common" "2.12.2"
+    auto-bind "~4.0.0"
+    tslib "~2.4.0"
+
+"@graphql-codegen/typescript@^2.7.5":
+  version "2.7.5"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript/-/typescript-2.7.5.tgz#00da3b7dd51cce49d95531556988818568c5d87e"
+  integrity sha512-NZMViINr0KEH+DgtOE3BDWkdrisX7cz3/+m6M73Sa2cMM1udTTCpLbNqFIHRmGl1UyfwjdZB32YoF/fxshjV/Q==
+  dependencies:
+    "@graphql-codegen/plugin-helpers" "^2.6.2"
+    "@graphql-codegen/schema-ast" "^2.5.1"
+    "@graphql-codegen/visitor-plugin-common" "2.13.0"
     auto-bind "~4.0.0"
     tslib "~2.4.0"
 
