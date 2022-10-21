@@ -649,14 +649,14 @@
     "@graphql-tools/utils" "^8.8.0"
     tslib "~2.4.0"
 
-"@graphql-codegen/near-operation-file-preset@2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/near-operation-file-preset/-/near-operation-file-preset-2.4.2.tgz#230d0147fe235350de956506addc663a660eeb7e"
-  integrity sha512-1rVxZK3x1tGsWcxSxcR2tjtTACq4sC9kDA9IHxVDUbTzsthkLvoDyWff0HaSdXxHQVOE0JUw4j+YkkCiWGZiJA==
+"@graphql-codegen/near-operation-file-preset@2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/near-operation-file-preset/-/near-operation-file-preset-2.4.3.tgz#4b4f48c3a8d427f06951fe7aa7dee94179ab026f"
+  integrity sha512-3YKnJVM2br1kmI8rmXex00IMG6HJKZkkGnS65fxrBdFs2G2eKOu9nDY1CQEoLIQgDbkFAxdyNembWxVuCTE/5Q==
   dependencies:
     "@graphql-codegen/add" "^3.2.1"
     "@graphql-codegen/plugin-helpers" "^2.6.2"
-    "@graphql-codegen/visitor-plugin-common" "2.12.2"
+    "@graphql-codegen/visitor-plugin-common" "2.13.0"
     "@graphql-tools/utils" "^8.8.0"
     parse-filepath "^1.0.2"
     tslib "~2.4.0"
