@@ -37,7 +37,7 @@
     "@graphql-codegen/cli": "^2.13.7",
     "@graphql-codegen/near-operation-file-preset": "2.4.3",
     "@graphql-codegen/typed-document-node": "2.3.5",
-    "@graphql-codegen/typescript": "2.7.5",
+    "@graphql-codegen/typescript": "2.8.0",
     "@graphql-codegen/typescript-operations": "2.5.5",
     "@graphql-codegen/typescript-urql": "3.7.2",
     "@graphql-typed-document-node/core": "3.1.1",
