@@ -42,7 +42,7 @@
     "@graphql-codegen/typescript-urql": "3.7.2",
     "@graphql-typed-document-node/core": "3.1.1",
     "@types/node": "18.11.4",
-    "@types/react": "18.0.21",
+    "@types/react": "18.0.22",
     "eslint": "8.26.0",
     "eslint-config-next": "12.3.1",
     "husky": "^8.0.0",
