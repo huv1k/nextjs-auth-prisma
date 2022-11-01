@@ -39,7 +39,7 @@
     "@graphql-codegen/typed-document-node": "2.3.5",
     "@graphql-codegen/typescript": "2.8.0",
     "@graphql-codegen/typescript-operations": "2.5.5",
-    "@graphql-codegen/typescript-urql": "3.7.2",
+    "@graphql-codegen/typescript-urql": "3.7.3",
     "@graphql-typed-document-node/core": "3.1.1",
     "@types/node": "18.11.8",
     "@types/react": "18.0.24",
