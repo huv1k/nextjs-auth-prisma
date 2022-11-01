@@ -34,7 +34,7 @@
     "urql": "2.2.3"
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "^2.13.8",
+    "@graphql-codegen/cli": "^2.13.10",
     "@graphql-codegen/near-operation-file-preset": "2.4.3",
     "@graphql-codegen/typed-document-node": "2.3.6",
     "@graphql-codegen/typescript": "2.8.1",
