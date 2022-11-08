@@ -23,7 +23,7 @@
     "@pothos/core": "3.22.9",
     "@pothos/plugin-prisma": "3.35.8",
     "@pothos/plugin-scope-auth": "3.16.0",
-    "@prisma/client": "4.5.0",
+    "@prisma/client": "4.6.0",
     "graphql": "16.6.0",
     "next": "12.2.5",
     "next-auth": "4.16.4",
