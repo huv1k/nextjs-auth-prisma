@@ -1303,10 +1303,10 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
-"@pothos/core@3.22.9":
-  version "3.22.9"
-  resolved "https://registry.yarnpkg.com/@pothos/core/-/core-3.22.9.tgz#fa576dcf2ab3460d0549a3012910d3064cebd75d"
-  integrity sha512-yIgmJBL1L2JRrZTZ3d+9JzCzfpMXZV8aHy5oK5KhonO7dFruBtzbJlsgx4T4zQieKigBh8MSo9fbjCq1Z9Oklg==
+"@pothos/core@3.23.0":
+  version "3.23.0"
+  resolved "https://registry.yarnpkg.com/@pothos/core/-/core-3.23.0.tgz#aa57c9ca68913be5b6b5d86efa1fbb9c72a720f2"
+  integrity sha512-UIpidfMYu6+Y1yjET+h4uIMwt2mtSDKG6iHvdyXFAzB/HSksbm1IG2SyDKtR7o22U17CkDrpc3kGrflss4Oyaw==
 
 "@pothos/plugin-prisma@3.35.8":
   version "3.35.8"
