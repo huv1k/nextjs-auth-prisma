@@ -1,5 +1,5 @@
 import type { User } from '@prisma/client'
-import { createServer } from '@graphql-yoga/node'
+import { createYoga } from 'graphql-yoga'
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { getToken } from 'next-auth/jwt'
 import { schema } from '../../lib/pothos/schema'
@@ -10,7 +10,7 @@ export const config = {
   },
 }
 
-export default createServer<
+export default createYoga<
   {
     req: NextApiRequest
     res: NextApiResponse

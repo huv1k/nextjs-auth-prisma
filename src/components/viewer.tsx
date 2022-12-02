@@ -10,8 +10,8 @@ export const Viewer = ({ viewer }: Props) => (
   <div>
     {viewer.image && (
       <Image
-        width="150px"
-        height="150px"
+        width={150}
+        height={150}
         src={viewer.image}
         alt={viewer.name ?? 'User without a name'}
       />
