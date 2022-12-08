@@ -20,6 +20,7 @@ export default createYoga<
     userRole: User['role']
   }
 >({
+  graphqlEndpoint: '/api/graphql',
   schema,
   context: async ({ req }) => {
     const token = await getToken({ req })
