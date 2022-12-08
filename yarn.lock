@@ -709,13 +709,13 @@
     "@graphql-tools/utils" "^8.8.0"
     tslib "~2.4.0"
 
-"@graphql-codegen/typed-document-node@2.3.9":
-  version "2.3.9"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/typed-document-node/-/typed-document-node-2.3.9.tgz#42af053352304785db685d8cbe433ef6989f5a96"
-  integrity sha512-F5ZSCtBvdXU4d5WkwwytouYUJCn4QDygGvzSSUljRNcUhTtsR2aPUiWcHqHHwBurX6ENhCyVPGFVEkoHBak2sg==
+"@graphql-codegen/typed-document-node@2.3.10":
+  version "2.3.10"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/typed-document-node/-/typed-document-node-2.3.10.tgz#d853e7a9b657bd71df8b1eafa2bd636d03006e03"
+  integrity sha512-FcEKubvEl2bHZG2N7u0AwioRYQmhBDRb/JXNBoNXjv9hg32juwejbilS9WWxgcxS13nPj14byEPfHs6GDrKZLw==
   dependencies:
-    "@graphql-codegen/plugin-helpers" "^3.0.0"
-    "@graphql-codegen/visitor-plugin-common" "2.13.4"
+    "@graphql-codegen/plugin-helpers" "^3.1.1"
+    "@graphql-codegen/visitor-plugin-common" "2.13.5"
     auto-bind "~4.0.0"
     change-case-all "1.0.15"
     tslib "~2.4.0"
