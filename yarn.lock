@@ -614,16 +614,16 @@
     "@graphql-codegen/plugin-helpers" "^2.6.2"
     tslib "~2.4.0"
 
-"@graphql-codegen/cli@^2.16.0":
-  version "2.16.0"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/cli/-/cli-2.16.0.tgz#90e3f38669bc05043700c98342325a730db9b5f9"
-  integrity sha512-z0yEMbNmSJLa4KCmspKWF5B7Ek4+tNxWuvwkIvPOoWytI0P+l/Z6XKKb5DtvhYYgwjGwXLCW9LbgYGyQ84sk4w==
+"@graphql-codegen/cli@^2.16.1":
+  version "2.16.1"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/cli/-/cli-2.16.1.tgz#72df7197e3d2d9261cffdf084ddb4f3845a4bb53"
+  integrity sha512-11z3iSlsNCXcNNkoRKG3wCmT9XpLf7/GZG9bWGXkCoveWVRwnRmo37YakHdNV3hbcJ4iiGbR3Z+MX9gUTEPDVA==
   dependencies:
     "@babel/generator" "^7.18.13"
     "@babel/template" "^7.18.10"
     "@babel/types" "^7.18.13"
-    "@graphql-codegen/core" "2.6.7"
-    "@graphql-codegen/plugin-helpers" "^3.1.0"
+    "@graphql-codegen/core" "2.6.8"
+    "@graphql-codegen/plugin-helpers" "^3.1.1"
     "@graphql-tools/apollo-engine-loader" "^7.3.6"
     "@graphql-tools/code-file-loader" "^7.3.13"
     "@graphql-tools/git-loader" "^7.2.13"
@@ -654,12 +654,12 @@
     yaml "^1.10.0"
     yargs "^17.0.0"
 
-"@graphql-codegen/core@2.6.7":
-  version "2.6.7"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/core/-/core-2.6.7.tgz#16851709548aad43257d0ad0f905af473365dfba"
-  integrity sha512-X7cm885dFUYvE41RSCUSW/a2o7/6ifM7vpYdmmehkbztBV8uAAHqLcyoB8RDwY5i1ijAqHJUvfDCjxhdt66x3w==
+"@graphql-codegen/core@2.6.8":
+  version "2.6.8"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/core/-/core-2.6.8.tgz#00c4011e3619ddbc6af5e41b2f254d6f6759556e"
+  integrity sha512-JKllNIipPrheRgl+/Hm/xuWMw9++xNQ12XJR/OHHgFopOg4zmN3TdlRSyYcv/K90hCFkkIwhlHFUQTfKrm8rxQ==
   dependencies:
-    "@graphql-codegen/plugin-helpers" "^3.0.0"
+    "@graphql-codegen/plugin-helpers" "^3.1.1"
     "@graphql-tools/schema" "^9.0.0"
     "@graphql-tools/utils" "^9.1.1"
     tslib "~2.4.0"
@@ -688,7 +688,7 @@
     lodash "~4.17.0"
     tslib "~2.4.0"
 
-"@graphql-codegen/plugin-helpers@^3.0.0", "@graphql-codegen/plugin-helpers@^3.1.0", "@graphql-codegen/plugin-helpers@^3.1.1":
+"@graphql-codegen/plugin-helpers@^3.0.0", "@graphql-codegen/plugin-helpers@^3.1.1":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/plugin-helpers/-/plugin-helpers-3.1.1.tgz#c2e324df8e56942dc6d9947ec70025614f5f94d7"
   integrity sha512-+V1WK4DUhejVSbkZrAsyv9gA4oQABVrtEUkT7vWq7gSf7Ln6OEM59lDUDsjp5wpLPTBIDJANbAe3qEd+iCB3Ow==
