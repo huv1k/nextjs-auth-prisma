@@ -1315,10 +1315,10 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
-"@pothos/core@3.23.1":
-  version "3.23.1"
-  resolved "https://registry.yarnpkg.com/@pothos/core/-/core-3.23.1.tgz#a019d0470c62a7cfb02f1541a30055204baa34d5"
-  integrity sha512-xoFLnqinTh0tdX8P/lWSEYjjmiBtaFf82/WEnFadvn4iH1kPwaQDL8fT5V6OAcIc0vSffzGAQxt1V2/H7ZCEwg==
+"@pothos/core@3.23.2":
+  version "3.23.2"
+  resolved "https://registry.yarnpkg.com/@pothos/core/-/core-3.23.2.tgz#c4589a5d97f064dcc608c8ad1025a733b3f7deea"
+  integrity sha512-A+YANU9RKIXQdJyOl6elPp95SHtQdl8f/v9FSTK7cfwn5V1wapz9NFouOCtuh9BCnFntH5HBTA2RexOf4LpryQ==
 
 "@pothos/plugin-prisma@3.38.1":
   version "3.38.1"
