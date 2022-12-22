@@ -534,7 +534,7 @@
     "@envelop/types" "3.0.1"
     tslib "2.4.0"
 
-"@envelop/parser-cache@5.0.4":
+"@envelop/parser-cache@^5.0.4":
   version "5.0.4"
   resolved "https://registry.yarnpkg.com/@envelop/parser-cache/-/parser-cache-5.0.4.tgz#4ff19c16c601c6137a6774fc5660f2e18768c05c"
   integrity sha512-+kp6nzCVLYI2WQExQcE3FSy6n9ZGB5GYi+ntyjYdxaXU41U1f8RVwiLdyh0Ewn5D/s/zaLin09xkFKITVSAKDw==
@@ -549,10 +549,10 @@
   dependencies:
     tslib "^2.4.0"
 
-"@envelop/validation-cache@5.0.4":
-  version "5.0.4"
-  resolved "https://registry.yarnpkg.com/@envelop/validation-cache/-/validation-cache-5.0.4.tgz#21f6b7b5c7d9966b046aec6323c621f6c3f35418"
-  integrity sha512-7b4BWtNMxSdXspwzFN2qmkEaaHfmuDz60uMlVFaMN4nA1Vc5duAV7GQWfAKl56VoePU6UwQ0i49Dm/plJfwxIQ==
+"@envelop/validation-cache@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@envelop/validation-cache/-/validation-cache-5.0.5.tgz#9be1c1ba178460dcaf6d277136a381833cc4f931"
+  integrity sha512-69sq5H7hvxE+7VV60i0bgnOiV1PX9GEJHKrBrVvyEZAXqYojKO3DP9jnLGryiPgVaBjN5yw12ge0l0s2gXbolQ==
   dependencies:
     lru-cache "^6.0.0"
     tslib "^2.4.0"
@@ -921,14 +921,6 @@
     "@graphql-tools/utils" "8.9.0"
     tslib "^2.4.0"
 
-"@graphql-tools/merge@8.3.3":
-  version "8.3.3"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/merge/-/merge-8.3.3.tgz#74dd4816c3fc7af38730fc59d1cba6e687d7fb2d"
-  integrity sha512-EfULshN2s2s2mhBwbV9WpGnoehRLe7eIMdZrKfHhxlBWOvtNUd3KSCN0PUdAMd7lj1jXUW9KYdn624JrVn6qzg==
-  dependencies:
-    "@graphql-tools/utils" "8.10.0"
-    tslib "^2.4.0"
-
 "@graphql-tools/merge@8.3.6":
   version "8.3.6"
   resolved "https://registry.yarnpkg.com/@graphql-tools/merge/-/merge-8.3.6.tgz#97a936d4c8e8f935e58a514bb516c476437b5b2c"
@@ -988,23 +980,13 @@
     tslib "^2.4.0"
     value-or-promise "1.0.11"
 
-"@graphql-tools/schema@9.0.4":
+"@graphql-tools/schema@9.0.4", "@graphql-tools/schema@^9.0.0":
   version "9.0.4"
   resolved "https://registry.yarnpkg.com/@graphql-tools/schema/-/schema-9.0.4.tgz#1a74608b57abf90fae6fd929d25e5482c57bc05d"
   integrity sha512-B/b8ukjs18fq+/s7p97P8L1VMrwapYc3N2KvdG/uNThSazRRn8GsBK0Nr+FH+mVKiUfb4Dno79e3SumZVoHuOQ==
   dependencies:
     "@graphql-tools/merge" "8.3.6"
     "@graphql-tools/utils" "8.12.0"
-    tslib "^2.4.0"
-    value-or-promise "1.0.11"
-
-"@graphql-tools/schema@^9.0.0":
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/schema/-/schema-9.0.1.tgz#ba8629107c1f0b9ffad14c08c2a85961967682fd"
-  integrity sha512-Y6apeiBmvXEz082IAuS/ainnEEQrzMECP1MRIV72eo2WPa6ZtLYPycvIbd56Z5uU2LKP4XcWRgK6WUbCyN16Rw==
-  dependencies:
-    "@graphql-tools/merge" "8.3.3"
-    "@graphql-tools/utils" "8.10.0"
     tslib "^2.4.0"
     value-or-promise "1.0.11"
 
@@ -1028,13 +1010,6 @@
     tslib "^2.4.0"
     value-or-promise "^1.0.11"
     ws "^8.3.0"
-
-"@graphql-tools/utils@8.10.0":
-  version "8.10.0"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/utils/-/utils-8.10.0.tgz#8e76db7487e19b60cf99fb90c2d6343b2105b331"
-  integrity sha512-yI+V373FdXQbYfqdarehn9vRWDZZYuvyQ/xwiv5ez2BbobHrqsexF7qs56plLRaQ8ESYpVAjMQvJWe9s23O0Jg==
-  dependencies:
-    tslib "^2.4.0"
 
 "@graphql-tools/utils@8.12.0", "@graphql-tools/utils@^8.6.5", "@graphql-tools/utils@^8.8.0", "@graphql-tools/utils@^8.9.0":
   version "8.12.0"
@@ -3176,14 +3151,14 @@ graphql-ws@^5.4.1:
   resolved "https://registry.yarnpkg.com/graphql-ws/-/graphql-ws-5.9.1.tgz#9c0fa48ceb695d61d574ed3ab21b426729e87f2d"
   integrity sha512-mL/SWGBwIT9Meq0NlfS55yXXTOeWPMbK7bZBEZhFu46bcGk1coTx2Sdtzxdk+9yHWngD+Fk1PZDWaAutQa9tpw==
 
-graphql-yoga@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/graphql-yoga/-/graphql-yoga-3.1.1.tgz#67089bbcb0e053e3696e0406c2a07aa482f3427e"
-  integrity sha512-XgqQM1IurPPsO0HU00evqhiHIta8oghJ/1bSkHOPbTZeGELqb0VV/j7ureGHz5S+vCvNHulzW+YuIfaaph00iQ==
+graphql-yoga@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/graphql-yoga/-/graphql-yoga-3.1.2.tgz#58a5e7cce073540b689fd8241852755aef70afed"
+  integrity sha512-kn5VIH8f461xlMy4WZBBqS03e5Mre200juoHCMJoJhoAN/1Mu8MiLuGY2SBcEE/ROkF57QC63o2JjYTJ37L6zA==
   dependencies:
     "@envelop/core" "3.0.4"
-    "@envelop/parser-cache" "5.0.4"
-    "@envelop/validation-cache" "5.0.4"
+    "@envelop/parser-cache" "^5.0.4"
+    "@envelop/validation-cache" "^5.0.5"
     "@graphql-tools/executor" "0.0.9"
     "@graphql-tools/schema" "^9.0.0"
     "@graphql-tools/utils" "^9.0.1"
