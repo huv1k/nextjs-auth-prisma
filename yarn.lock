@@ -877,6 +877,17 @@
     tslib "^2.4.0"
     value-or-promise "1.0.11"
 
+"@graphql-tools/executor@0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/executor/-/executor-0.0.12.tgz#d885c7fa98a8aaeaa771163b71fb98ce9f52f9bd"
+  integrity sha512-bWpZcYRo81jDoTVONTnxS9dDHhEkNVjxzvFCH4CRpuyzD3uL+5w3MhtxIh24QyWm4LvQ4f+Bz3eMV2xU2I5+FA==
+  dependencies:
+    "@graphql-tools/utils" "9.1.4"
+    "@graphql-typed-document-node/core" "3.1.1"
+    "@repeaterjs/repeater" "3.0.4"
+    tslib "^2.4.0"
+    value-or-promise "1.0.12"
+
 "@graphql-tools/git-loader@^7.2.13":
   version "7.2.13"
   resolved "https://registry.yarnpkg.com/@graphql-tools/git-loader/-/git-loader-7.2.13.tgz#76af2a8e56f66c28562496c48baaafe7d812db43"
@@ -1077,10 +1088,17 @@
   dependencies:
     tslib "^2.4.0"
 
-"@graphql-tools/utils@9.1.3", "@graphql-tools/utils@^9.0.0", "@graphql-tools/utils@^9.0.1", "@graphql-tools/utils@^9.1.1":
+"@graphql-tools/utils@9.1.3":
   version "9.1.3"
   resolved "https://registry.yarnpkg.com/@graphql-tools/utils/-/utils-9.1.3.tgz#861f87057b313726136fa6ddfbd2380eae906599"
   integrity sha512-bbJyKhs6awp1/OmP+WKA1GOyu9UbgZGkhIj5srmiMGLHohEOKMjW784Sk0BZil1w2x95UPu0WHw6/d/HVCACCg==
+  dependencies:
+    tslib "^2.4.0"
+
+"@graphql-tools/utils@9.1.4", "@graphql-tools/utils@^9.0.0", "@graphql-tools/utils@^9.0.1", "@graphql-tools/utils@^9.1.1":
+  version "9.1.4"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/utils/-/utils-9.1.4.tgz#2c9e0aefc9655dd73247667befe3c850ec014f3f"
+  integrity sha512-hgIeLt95h9nQgQuzbbdhuZmh+8WV7RZ/6GbTj6t3IU4Zd2zs9yYJ2jgW/krO587GMOY8zCwrjNOMzD40u3l7Vg==
   dependencies:
     tslib "^2.4.0"
 
@@ -1100,10 +1118,10 @@
   resolved "https://registry.yarnpkg.com/@graphql-typed-document-node/core/-/core-3.1.1.tgz#076d78ce99822258cf813ecc1e7fa460fa74d052"
   integrity sha512-NQ17ii0rK1b34VZonlmT2QMJFI70m0TRwbknO/ihlbatXyaktDhN/98vBiUU6kNBPljqGqyIrl2T4nY2RpFANg==
 
-"@graphql-yoga/subscription@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@graphql-yoga/subscription/-/subscription-3.0.0.tgz#37d0675ca5845ca4b44b5ce036265a11127448b9"
-  integrity sha512-Wy1m2fcCrSj2a/KbtlQUEJ8Go7M95jeUXEH1dqbS6T6wbReqQHqq5ecSUKNhL49Xziy2Sh6od8iWm7MBUIWAlQ==
+"@graphql-yoga/subscription@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@graphql-yoga/subscription/-/subscription-3.1.0.tgz#4a0bb0b9db2602d02c68f9828603e1e40329140b"
+  integrity sha512-Vc9lh8KzIHyS3n4jBlCbz7zCjcbtQnOBpsymcRvHhFr2cuH+knmRn0EmzimMQ58jQ8kxoRXXC3KJS3RIxSdPIg==
   dependencies:
     "@graphql-yoga/typed-event-target" "^1.0.0"
     "@repeaterjs/repeater" "^3.0.4"
@@ -1585,10 +1603,10 @@
     undici "^5.12.0"
     web-streams-polyfill "^3.2.0"
 
-"@whatwg-node/fetch@0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@whatwg-node/fetch/-/fetch-0.6.1.tgz#802a3e71ade25c04211efc2f1520a25a8829924f"
-  integrity sha512-sG39WLvcJxGZ+gDstnLSXR2IcnuvIOB51KxCFo0mEhFW0q2u8fZgolr0HPkL+zXwOJsnmT+9V3IRcqLnTXdqVQ==
+"@whatwg-node/fetch@0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@whatwg-node/fetch/-/fetch-0.6.2.tgz#fe4837505f6fc91bcfd6e12cdcec66f4aecfeecc"
+  integrity sha512-fCUycF1W+bI6XzwJFnbdDuxIldfKM3w8+AzVCLGlucm0D+AQ8ZMm2j84hdcIhfV6ZdE4Y1HFVrHosAxdDZ+nPw==
   dependencies:
     "@peculiar/webcrypto" "^1.4.0"
     abort-controller "^3.0.0"
@@ -1629,12 +1647,12 @@
     undici "^5.12.0"
     web-streams-polyfill "^3.2.0"
 
-"@whatwg-node/server@0.5.4":
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/@whatwg-node/server/-/server-0.5.4.tgz#2d9101a7923870336731727f56e44fcdfe1ffeb2"
-  integrity sha512-JDMmRyyQXdXOzPY2hhJNR+n4K3F2+LuReHbnF81oi+pnNAgHiffr6s9ZGVI3bO9p/Hv/3v0ur3VaMmTPGtxdUA==
+"@whatwg-node/server@0.5.8":
+  version "0.5.8"
+  resolved "https://registry.yarnpkg.com/@whatwg-node/server/-/server-0.5.8.tgz#e47aa4535431b6703652809dc4f7e5ebac6bffdb"
+  integrity sha512-29f2Ijk663Hr6hF5GU5a8ELGQVbNMMDBWF1lTdpIKGyLrLJTKixarp6COEyEN5H9tGzIRUQar9Z76A+Jb9DyzQ==
   dependencies:
-    "@whatwg-node/fetch" "0.6.1"
+    "@whatwg-node/fetch" "0.6.2"
     tslib "^2.3.1"
 
 abort-controller@^3.0.0:
@@ -3228,20 +3246,20 @@ graphql-ws@5.11.2:
   resolved "https://registry.yarnpkg.com/graphql-ws/-/graphql-ws-5.11.2.tgz#d5e0acae8b4d4a4cf7be410a24135cfcefd7ddc0"
   integrity sha512-4EiZ3/UXYcjm+xFGP544/yW1+DVI8ZpKASFbzrV5EDTFWJp0ZvLl4Dy2fSZAzz9imKp5pZMIcjB0x/H69Pv/6w==
 
-graphql-yoga@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/graphql-yoga/-/graphql-yoga-3.3.0.tgz#4d29c2916c8b165b5c3d3f6570b6c34328b2daf8"
-  integrity sha512-xkxenHhwQ5RWmjp7iNVYl0oIsVzt3wZb2GRXESiFYoRMl8pRSzuVlGvdVejEVWi6TWYHvYAF2LvuKrm1on4Gzw==
+graphql-yoga@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/graphql-yoga/-/graphql-yoga-3.4.0.tgz#9ab03552edb1f9ec0d877566ee7f0ecb23726dd7"
+  integrity sha512-Cjx60mmpoK1qL/sLdM285VdAOQyJBKLuC6oMZrfO8QleneNtu0nDOM6Efv5m0IrRYSONEMtIYA7eNr0u/cCBfg==
   dependencies:
     "@envelop/core" "3.0.4"
     "@envelop/parser-cache" "^5.0.4"
     "@envelop/validation-cache" "^5.0.5"
-    "@graphql-tools/executor" "0.0.11"
+    "@graphql-tools/executor" "0.0.12"
     "@graphql-tools/schema" "^9.0.0"
     "@graphql-tools/utils" "^9.0.1"
-    "@graphql-yoga/subscription" "^3.0.0"
-    "@whatwg-node/fetch" "0.6.1"
-    "@whatwg-node/server" "0.5.4"
+    "@graphql-yoga/subscription" "^3.1.0"
+    "@whatwg-node/fetch" "0.6.2"
+    "@whatwg-node/server" "0.5.8"
     dset "^3.1.1"
     tslib "^2.3.1"
 
@@ -5173,6 +5191,11 @@ value-or-promise@1.0.11, value-or-promise@^1.0.11:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/value-or-promise/-/value-or-promise-1.0.11.tgz#3e90299af31dd014fe843fe309cefa7c1d94b140"
   integrity sha512-41BrgH+dIbCFXClcSapVs5M6GkENd3gQOJpEfPDNa71LsUGMXDL0jMWpI/Rh7WhX+Aalfz2TTS3Zt5pUsbnhLg==
+
+value-or-promise@1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/value-or-promise/-/value-or-promise-1.0.12.tgz#0e5abfeec70148c78460a849f6b003ea7986f15c"
+  integrity sha512-Z6Uz+TYwEqE7ZN50gwn+1LCVo9ZVrpxRPOhOLnncYkY1ZzOYtrX8Fwf/rFktZ8R5mJms6EZf5TqNOMeZmnPq9Q==
 
 wcwidth@^1.0.1:
   version "1.0.1"
