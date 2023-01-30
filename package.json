@@ -26,7 +26,7 @@
     "graphql": "16.6.0",
     "graphql-yoga": "3.4.0",
     "next": "13.1.5",
-    "next-auth": "4.18.10",
+    "next-auth": "4.19.0",
     "next-urql": "3.3.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
