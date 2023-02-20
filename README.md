@@ -37,11 +37,9 @@ This boilerplate works out of the box with automatic migrations for rapid protot
 
 ![](https://i.imgur.com/kF73swy.gif)
 
-### Automatic GraphQL hooks generation
+### Automatic GraphQL types generated
 
-Hooks for GraphQL are automatically generated inside `src/lib/grahql/*` from your GraphQL files. You can customize hooks generation inside `.graphqlrc.yaml`.
-
-![](https://i.imgur.com/xNwz7AA.gif)
+GraphQL types are automatically generated for data masking. This pattern is one of [the best practise](https://the-guild.dev/blog/unleash-the-power-of-fragments-with-graphql-codegen) you should follow when building scalable applications. This pattern was first introduced by [Relay](https://relay.dev/docs/principles-and-architecture/thinking-in-relay/#data-masking).
 
 ### Authentication using NextAuth.js
 
