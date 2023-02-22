@@ -11,7 +11,7 @@
         "cmd": "yarn schema:generate"
       },
       {
-        "match": "./src/lib/graphql/*",
+        "match": "./src/components/|./src/pages/",
         "cmd": "yarn hooks:generate"
       }
     ]
