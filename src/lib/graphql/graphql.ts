@@ -96,6 +96,20 @@ export const ViewerQueryDocument = {
         ],
       },
     },
-    ...ViewerFragmentFragmentDoc.definitions,
+    {
+      kind: 'FragmentDefinition',
+      name: { kind: 'Name', value: 'ViewerFragment' },
+      typeCondition: {
+        kind: 'NamedType',
+        name: { kind: 'Name', value: 'User' },
+      },
+      selectionSet: {
+        kind: 'SelectionSet',
+        selections: [
+          { kind: 'Field', name: { kind: 'Name', value: 'name' } },
+          { kind: 'Field', name: { kind: 'Name', value: 'image' } },
+        ],
+      },
+    },
   ],
 } as unknown as DocumentNode<ViewerQueryQuery, ViewerQueryQueryVariables>

@@ -5,10 +5,6 @@ const config = {
   generates: {
     './src/lib/graphql/': {
       preset: 'client',
-      presetConfig: {
-        fragmentMasking: true,
-        useTypeImports: true,
-      },
     },
   },
 }

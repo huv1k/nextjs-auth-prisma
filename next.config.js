@@ -8,4 +8,12 @@ module.exports = {
   images: {
     domains: ['avatars.githubusercontent.com'],
   },
+  experimental: {
+    swcPlugins: [
+      [
+        '@graphql-codegen/client-preset-swc-plugin',
+        { artifactDirectory: './src/lib/graphql/', gqlTagName: 'graphql' },
+      ],
+    ],
+  },
 }

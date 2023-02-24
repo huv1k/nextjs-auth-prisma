@@ -730,6 +730,11 @@
     yaml "^1.10.0"
     yargs "^17.0.0"
 
+"@graphql-codegen/client-preset-swc-plugin@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/client-preset-swc-plugin/-/client-preset-swc-plugin-0.1.1.tgz#2724432d9a83b68c8d1d177386a286b11caa6d2d"
+  integrity sha512-FYdw7x562VqhavXWm5V/Oho8wtBsNbUfxlPsfjQaRpC1sBOrKJJxOvw/Bb5qW+Mqf3Uepbe5dN+cZaKn15ybWg==
+
 "@graphql-codegen/client-preset@2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/client-preset/-/client-preset-2.1.0.tgz#7096d3dba7d28b24da97f6d8bbc61654a8d0f4fe"
@@ -5323,3 +5328,4 @@ yocto-queue@^0.1.0:
 
 "~gql@link:./src/lib/graphql":
   version "0.0.0"
+  uid ""
