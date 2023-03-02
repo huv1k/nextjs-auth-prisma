@@ -20,7 +20,7 @@
   "dependencies": {
     "@next-auth/prisma-adapter": "1.0.5",
     "@pothos/core": "3.27.1",
-    "@pothos/plugin-prisma": "3.41.1",
+    "@pothos/plugin-prisma": "3.41.3",
     "@pothos/plugin-scope-auth": "3.18.0",
     "@prisma/client": "4.11.0",
     "graphql": "16.6.0",
