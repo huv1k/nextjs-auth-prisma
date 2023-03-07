@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@graphql-codegen/cli": "3.2.1",
-    "@graphql-codegen/client-preset": "2.1.0",
+    "@graphql-codegen/client-preset": "2.1.1",
     "@types/node": "18.14.6",
     "@types/react": "18.0.28",
     "eslint": "8.35.0",
