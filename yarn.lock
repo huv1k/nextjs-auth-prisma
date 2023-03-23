@@ -1385,10 +1385,10 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
-"@pothos/core@3.28.0":
-  version "3.28.0"
-  resolved "https://registry.yarnpkg.com/@pothos/core/-/core-3.28.0.tgz#3466a8457c83527dd552b767b0430f0888b8447d"
-  integrity sha512-98pJcnL3ojBpOK2DJOWGsNHgjQ+P0A8bt7qLZsCnnyvZEDittU4BnhAxt4MBSTD5D8NFD8pp6ZFUPmTUyGlgDQ==
+"@pothos/core@3.29.0":
+  version "3.29.0"
+  resolved "https://registry.yarnpkg.com/@pothos/core/-/core-3.29.0.tgz#cc3fa43980280637de9bd42d653e363812aa0e91"
+  integrity sha512-6LcrnZ3QRQrbWvKLfdSvfrk1nyezLaDAT8yIhQXLOhhtm3iK+knIpdGbNfKiTgxbdSDkK69IcXNV4ifcq23bIQ==
 
 "@pothos/plugin-prisma@3.46.0":
   version "3.46.0"
