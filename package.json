@@ -24,7 +24,7 @@
     "@pothos/plugin-scope-auth": "3.19.0",
     "@prisma/client": "4.11.0",
     "graphql": "16.6.0",
-    "graphql-yoga": "3.7.2",
+    "graphql-yoga": "3.7.3",
     "next": "13.2.4",
     "next-auth": "4.20.1",
     "next-urql": "3.3.3",
