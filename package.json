@@ -38,7 +38,7 @@
     "@graphql-codegen/cli": "3.2.2",
     "@graphql-codegen/client-preset": "2.1.1",
     "@types/node": "18.15.11",
-    "@types/react": "18.0.31",
+    "@types/react": "18.0.33",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
     "husky": "8.0.3",
