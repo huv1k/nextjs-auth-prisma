@@ -3897,10 +3897,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next-auth@4.20.1:
-  version "4.20.1"
-  resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-4.20.1.tgz#6e65c4fde14171f6ce64f05f672f80f39fc418c7"
-  integrity sha512-ZcTUN4qzzZ/zJYgOW0hMXccpheWtAol8QOMdMts+LYRcsPGsqf2hEityyaKyECQVw1cWInb9dF3wYwI5GZdEmQ==
+next-auth@4.21.1:
+  version "4.21.1"
+  resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-4.21.1.tgz#8db520395b2c697bd1259b76831d319728f0d50d"
+  integrity sha512-NYkU4jAPSVxWhCblE8dDFAnKM7kOoO/QEobQ0RoEVP9Wox99A3PKHwOAsWhSg8ahJG/iKIWk2Bo1xHvsS4R39Q==
   dependencies:
     "@babel/runtime" "^7.20.13"
     "@panva/hkdf" "^1.0.2"
