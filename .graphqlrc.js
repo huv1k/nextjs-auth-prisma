@@ -5,12 +5,9 @@ const config = {
   generates: {
     './src/lib/graphql/': {
       preset: 'client',
-      presetConfig: {
-        fragmentMasking: true,
-        useTypeImports: true,
-      },
     },
   },
+  hooks: { afterAllFileWrite: ['prettier --write'] },
 }
 
 module.exports = config
