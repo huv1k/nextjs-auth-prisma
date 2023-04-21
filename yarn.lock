@@ -730,10 +730,10 @@
     yaml "^1.10.0"
     yargs "^17.0.0"
 
-"@graphql-codegen/client-preset-swc-plugin@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/client-preset-swc-plugin/-/client-preset-swc-plugin-0.1.1.tgz#2724432d9a83b68c8d1d177386a286b11caa6d2d"
-  integrity sha512-FYdw7x562VqhavXWm5V/Oho8wtBsNbUfxlPsfjQaRpC1sBOrKJJxOvw/Bb5qW+Mqf3Uepbe5dN+cZaKn15ybWg==
+"@graphql-codegen/client-preset-swc-plugin@0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/client-preset-swc-plugin/-/client-preset-swc-plugin-0.1.3.tgz#8cf6ed86ce7bb113978fb0a5ca2ce182fa54681c"
+  integrity sha512-mTdwaADV2IsgY1kuMWlixgxk8DW+1HE9WGzwK2JtfV+vjLvCtB2WJXE/o4FcXJWJGP6DTp/Gf+03Gm7EuryU6Q==
 
 "@graphql-codegen/client-preset@2.1.0":
   version "2.1.0"
