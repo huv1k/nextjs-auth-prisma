@@ -7,6 +7,7 @@ const config = {
       preset: 'client',
     },
   },
+  hooks: { afterAllFileWrite: ['prettier --write'] },
 }
 
 module.exports = config
