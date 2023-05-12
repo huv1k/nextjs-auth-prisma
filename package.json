@@ -40,7 +40,7 @@
     "@graphql-codegen/client-preset": "2.1.0",
     "@types/node": "18.15.12",
     "@types/react": "18.0.37",
-    "eslint-config-next": "13.3.0",
+    "eslint-config-next": "13.4.2",
     "eslint": "8.38.0",
     "husky": "8.0.3",
     "prettier": "2.8.7",
