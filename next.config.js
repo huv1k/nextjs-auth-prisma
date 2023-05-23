@@ -10,10 +10,10 @@ module.exports = {
   },
   experimental: {
     swcPlugins: [
-      // [
-      //   '@graphql-codegen/client-preset-swc-plugin',
-      //   { artifactDirectory: './src/lib/graphql/', gqlTagName: 'graphql' },
-      // ],
+      [
+        '@graphql-codegen/client-preset-swc-plugin',
+        { artifactDirectory: './src/lib/graphql/', gqlTagName: 'graphql' },
+      ],
     ],
   },
 }
